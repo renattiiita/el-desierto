@@ -1,0 +1,111 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    height: 100vh;
+    background: #584040;
+    display: flex;
+    align-items: center;
+}
+
+.cred{
+    background-color: #478563;
+    text-align: center;
+}
+
+.cred h1{
+    position: absolute;
+    top: 100px;
+    left: 45%;
+    color: white;
+    font-family: 'Courier New';
+}
+
+.cred h2{
+    position: absolute;
+    top: 200px;
+    left: 45%;
+    color: white;
+    font-family: 'Arial';
+}
+
+.credcon{
+    position: absolute;
+    left: 44%;
+    top: 50%;
+    background-color: #32CA8D;
+    width: 200px;
+    height: 60px;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+}
+
+.credcon h1{
+    position: relative;
+    top: 25%;
+    left: 0px;
+    font-family:'Franklin Gothic Medium';
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.credcon:hover{
+    background-color: #3CE5A2;
+}
+
+
+img{
+    position: absolute;
+    width: 100%;
+}
+
+.contenedor{
+    position: absolute;
+    left: 44%;
+    top: 50%;
+    background-color: #32CA8D;
+    width: 200px;
+    height: 60px;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+}
+
+.contenedor h1{
+    position: relative;
+    top: 25%;
+    font-family:'Franklin Gothic Medium';
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.contenedor:hover{
+    background-color: #3CE5A2;
+}
+
+.creditos{
+    position: absolute;
+    left: 44.5%;
+    top: 65%;
+    background-color: #32CA8D;
+    width: 180px;
+    height: 50px;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+}
+
+.creditos h1{
+    position: relative;
+    top: 25%;
+    font-family:'Franklin Gothic Medium';
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.creditos:hover{
+    background-color: #3CE5A2;
+}
